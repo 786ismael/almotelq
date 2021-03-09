@@ -1,0 +1,8 @@
+untime: php73
+
+env_variables:
+  ## Put production environment variables here.
+  APP_KEY: base64:z0J/0Hty9kg77TFADuEr3dE0sieUD/kz1iIWamD/rvQ=
+  APP_STORAGE: /tmp
+  VIEW_COMPILED_PATH: /tmp
+  SESSION_DRIVER: cookie
