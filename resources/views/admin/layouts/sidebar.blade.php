@@ -51,6 +51,9 @@
 								</li>
 							</ul>
 						</li>
+						<li>
+							<a href="{{ env('APP_URL') }}/jamali/admin/dashboard"><i class="fa fa-list-alt"></i> <span>Dashboard</span></a>
+						</li>
 					</ul>
 				</div>
 			</nav>

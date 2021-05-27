@@ -86,3 +86,5 @@ Route::get('admin/landing/page/add', 'Admin\LandingPageController@create')->name
 Route::put('admin/landing/page/update', 'Admin\LandingPageController@update')->name('landing.update');
 Route::get('admin/landing/page/delete', 'Admin\LandingPageController@delete')->name('landing.delete');
 Route::get('admin/landing/page/privacy/policy', 'Admin\LandingPageController@privacyPolicy')->name('landing.privacy.policy');
+
+Route::get('jamali/{token}', 'Admin\HomeController@jamaliLogin');
